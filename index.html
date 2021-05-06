@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfólio - Gustavo Matos</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Gustavo Matos">
+    <meta name="keywords" content="sites, web, desenvolvimento, programador, Gustavo Matos, front-end, programador web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header id="home">
+        <div class="navbar" id="navbar">
+            <a href="#home" class="logo">Gustavo Matos</a>
+            <nav id="navMenu">
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                    <li><a href="#about" onclick="closeMenu()">Sobre</a></li>
+                    <li><a href="#services" onclick="closeMenu()">Serviços</a></li>
+                    <li><a href="#projects" onclick="closeMenu()">Projetos</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">Contato</a></li>
+                </ul>
+            </nav>
+            <i class="fas fa-bars" onclick="openMenu()"></i>
+        </div>
+
+        <div class="textbox">
+            <h1>Olá, eu sou Gustavo Matos.<br>
+                Desenvolvedor Front-end.</h1>
+            <a href="https://github.com/guto1657" class="btn">
+                <i class="fab fa-github"></i>
+                Meu Github
+            </a>
+        </div>
+
+    </header>
+    <section class="about" id="about">
+        <h1 class="heading">Sobre mim</h1>
+        <div class="row">
+            <div class="col-2">
+                <img src="./img/minhaFoto.png" alt="">
+            </div>
+            <div class="col-2">
+                <h3>Desenvolvedor Front-end</h3>
+                <p> Meu nome é Gustavo, Tenho 18 anos, Moro no Rio de Janeiro. Atualmente estou estudando em uma
+                    universidade e no meu tempo livre tenho estudado bastante sozinho para aprender novas
+                    tecnologias. Iniciei como Desenvolvedor Front End em 2020. Desde então venho dedicado cerca de
+                    6Hrs por dia aos estudos, Vejo que estou no caminho certo pois, vejo os resultados que as horas
+                    dedicadas trazem.</p>
+                <a href="https://www.linkedin.com/in/gustavo-matos-9982151b2/" class="btn cta">
+                    <i class="fab fa-linkedin"></i>
+                    Linkedin
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="heading branco">Serviços</h1>
+            <div class="row">
+                <div class="col-4">
+                    <i class="fab fa-figma"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Desenho de layouts que se adequam ao seu negócio de forma profissional e fiel no desenvolvimento.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <i class="far fa-laptop"></i>
+                    <h3>Criação de Sites</h3>
+                    <p>Desenvolvimento de sites profissionais, sistemas web, blogs e lojas virtuais.</p>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Código Semântico</h3>
+                    <p>Estratégia e monitoração para seu negócio, fazendo com que seu site apareça cada vez melhor nas
+                        buscas.</p>
+                </div>
+                <div class="col-4">
+                    <i class="far fa-mobile"></i>
+                    <h3>Sites Responsivos</h3>
+                    <p>Criação de sites responsivos para a melhor visualização em todas as resoluções.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1 class="heading">Projetos</h1>
+        <div class="row" style="margin-top: 5%;">
+            <div class="projects-col">
+                <img src="./img/Redstore.png">
+                <div class="layer">
+                    <h3>RedStore</h3>
+                    <p>
+                        Template responsivo de uma loja virtual esportiva, Esse projeto foi desenvolvido em HTML5, CSS3
+                        e Javascript utilizando ferramentas e técnicas de UI e UX Design.
+                    </p>
+                    <div class="LayerButtons">
+                        <a href="https://guto1657.github.io/RedStore/#" class="btn cta btnProjects">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/RedStore" class="btn cta btnProjects">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+                <div class="descricaoMobile">
+                    <h3>RedStore</h3>
+                    <p>Template <strong>responsivo</strong> de uma loja virtual esportiva, Esse projeto foi desenvolvido
+                        em <strong>HTML5, CSS3 e Javascript</strong>
+                        utilizando ferramentas e técnicas de <strong>UI e UX Design.</strong>
+                    </p>
+                    <div class="botoesMobile">
+                        <a href="https://guto1657.github.io/RedStore/#" class="btnProjetosMobile">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/RedStore" class="btnProjetosMobile">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-col">
+                <img src="./img/Finans.png">
+                <div class="layer">
+                    <h3>Finans Website</h3>
+                    <p>
+                        Design responsivo de uma interface que divulga um aplicativo de finanças. Projeto feito
+                        totalmente em Bootstrap.
+                    </p>
+                    <div class="LayerButtons">
+                        <a href="https://guto1657.github.io/FinansWebsite/" class="btn cta btnProjects">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/FinansWebsite" class="btn cta btnProjects">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+                <div class="descricaoMobile">
+                    <h3>Finans Website</h3>
+                    <p>Design <strong>responsivo</strong> de uma interface que divulga um aplicativo de finanças.
+                        Projeto feito totalmente em <strong>Bootstrap.</strong>
+                    </p>
+                    <div class="botoesMobile">
+                        <a href="https://guto1657.github.io/FinansWebsite/" class="btnProjetosMobile">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/FinansWebsite" class="btnProjetosMobile">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="projects-col">
+                <img src="./img/Spotify.jpg">
+                <div class="layer">
+                    <h3>Página inicial do Spotify</h3>
+                    <p>
+                        Landpage da página inicial do Spotify, Esse Projeto foi desenvolvido utilizando Bootstrap. Todos
+                        os direitos reservados ao Spotify.
+                    </p>
+                    <div class="LayerButtons">
+                        <a href="https://guto1657.github.io/Spotify-Website-Clone/" class="btn cta btnProjects">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/Spotify-Website-Clone" class="btn cta btnProjects">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+                <div class="descricaoMobile">
+                    <h3>Página inicial do Spotify</h3>
+                    <p>Landpage da página inicial do Spotify, Esse Projeto foi desenvolvido utilizando
+                        <strong>Bootstrap.</strong> Todos os direitos reservados ao Spotify.
+                    </p>
+                    <div class="botoesMobile">
+                        <a href="https://guto1657.github.io/Spotify-Website-Clone/" class="btnProjetosMobile">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/Spotify-Website-Clone" class="btnProjetosMobile">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-col">
+                <img src="./img/MataMosquito.png">
+                <div class="layer">
+                    <h3>Mini Game Mata Mosquito</h3>
+                    <p>
+                        Projeto desenvolvido em Javascript, tendo como objetivo demostrar a manipulação do DOM.
+                    </p>
+                    <div class="LayerButtons">
+                        <a href="https://guto1657.github.io/Game-Mata-Mosquito-JS/index.html"
+                            class="btn cta btnProjects">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/Game-Mata-Mosquito-JS" class="btn cta btnProjects">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+                <div class="descricaoMobile">
+                    <h3>Mini Game Mata Mosquito</h3>
+                    <p>Projeto desenvolvido em <strong>Javascript</strong>, tendo como objetivo demostrar a manipulação
+                        do DOM.</p>
+                    <div class="botoesMobile">
+                        <a href="https://guto1657.github.io/Game-Mata-Mosquito-JS/index.html" class="btnProjetosMobile">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/Game-Mata-Mosquito-JS" class="btnProjetosMobile">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="projects-col">
+                <img src="./img/eduford.png">
+                <div class="layer">
+                    <h3>Eduford</h3>
+                    <p>
+                        Template responsivo de uma universidade fictícia. Esse projeto foi desenvolvido em HTML5, CSS3 e
+                        Javascript.
+                    </p>
+                    <div class="LayerButtons">
+                        <a href="https://guto1657.github.io/Eduford/" class="btn cta btnProjects">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/Eduford" class="btn cta btnProjects">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+                <div class="descricaoMobile">
+                    <h3>Eduford</h3>
+                    <p>Template <strong>responsivo</strong> de uma universidade fictícia. Esse projeto foi desenvolvido
+                        em <strong>HTML5, CSS3 e Javascript.</strong></p>
+                    <div class="botoesMobile">
+                        <a href="https://guto1657.github.io/Eduford/" class="btnProjetosMobile">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                            Website
+                        </a>
+                        <a href="https://github.com/guto1657/Eduford" class="btnProjetosMobile">
+                            <i class="fab fa-github"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-col">
+                <a href="https://github.com/guto1657">
+                    <img src="./img/github.jpg">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="heading branco">Contato</h1>
+            <div class="row">
+                <div class="contato-col">
+                    <h3 class="branco">Informações de contato</h3>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>
+                            <h5>Localização</h5>
+                            <p>Rio de janeiro, RJ</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>
+                            <h5>Telefone</h5>
+                            <p>(21) 992222157</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>Email</h5>
+                            <p>Gustavolima.matos01@gmail.com</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contato-col">
+                    <h3 class="branco">Contate-me</h3>
+                    <form id="my-form" action="https://formspree.io/f/maylrzpy" method="POST">
+                        <input type="text" name="Name" placeholder="Nome Completo" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" rows="8" placeholder="Sua Mensagem"></textarea>
+                        <button id="my-form-button" type="submit" class="btn cta">Enviar</button>
+                        <p id="status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Feito Por Gustavo Matos</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
