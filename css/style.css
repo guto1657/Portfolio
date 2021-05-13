@@ -244,7 +244,6 @@ nav ul li a {
     flex-basis: 48%;
     margin-bottom: 5%;
     text-align: left;
-    padding: 10px;
     position: relative;
 }
 
@@ -253,6 +252,7 @@ nav ul li a {
   width: 100%;
   height: 100%;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 .layer {
@@ -267,7 +267,7 @@ nav ul li a {
   transition: .5s ease;
   background-color: #008CBA;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .layer:hover {
@@ -548,7 +548,7 @@ p#status.error {
     .descricaoMobile p {
         font-size: 14px;
         line-height: 22px;
-        color: #222;
+        color: #333;
     }
 
     .botoesMobile {
@@ -563,11 +563,14 @@ p#status.error {
         color: #2196F3;
         background: #fff;
         border: 1px solid #2196F3;
-        padding: 12px 6px;
-        border-radius: 10px;
+        padding: 10px 20px;
+        border-radius: 5px;
         margin: 0 5px;
-        width: 100px;
+        font-weight: 500;
         text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
     }
 
     .btnProjetosMobile:hover {
