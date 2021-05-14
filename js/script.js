@@ -1,3 +1,5 @@
+/* Responsive Menu */
+
 let nav = document.getElementById('navMenu');
 
 nav.style.right = "-200px";
@@ -18,7 +20,7 @@ window.addEventListener('scroll', function () {
 
 });
 
-/* Formulario */
+/* Form */
 
 var form = document.getElementById("my-form");
 
@@ -42,3 +44,21 @@ async function handleSubmit(event) {
   });
 }
 form.addEventListener("submit", handleSubmit)
+
+
+/* Link Active on scroll */
+
+const links = document.querySelectorAll('.links');
+const sections = document.querySelectorAll('section');
+
+function changeLinkState() {
+  let index = sections.length;
+
+  while(--index && window.scrollY + 100 < sections[index].offsetTop) {}
+  
+  links.forEach((link) => link.classList.remove('active'));
+  links[index].classList.add('active');
+}
+
+changeLinkState();
+window.addEventListener('scroll', changeLinkState);
