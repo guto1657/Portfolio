@@ -132,10 +132,14 @@ nav ul li a {
     color: #000;
 }
 
+.stick nav ul li a.active {
+    color: #008CBA;
+}
+
 /* About */ 
 
 .about {
-    padding-top: 80px;
+    padding-top: 50px;
     width: 80%;
     margin: 0 auto;
 }
@@ -197,7 +201,7 @@ nav ul li a {
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .col-4 {
@@ -468,6 +472,8 @@ p#status.error {
 
 @media (max-width: 900px) {
 
+    /* Navbar */
+
     nav {
         position: fixed;
         background: #000;
@@ -508,10 +514,14 @@ p#status.error {
         color: #fff;
     }
 
+    /* Header */
+
     .textbox h1 {
         font-size: 24px;
         margin-bottom: 30px;
     }
+
+    /* About */
 
     .row {
         flex-direction: column;
@@ -525,6 +535,12 @@ p#status.error {
         font-size: 12px;
         line-height: 20px;
     }
+
+    .container {
+        padding: 100px 0;
+    }
+
+    /* projects */
     
     .layer {
         display: none;
@@ -582,6 +598,8 @@ p#status.error {
         color: #fff;
         transition: .5s all;
     }
+
+    /* Contact */
 
     .contato-col:first-child div:last-child span p {
         font-size: 15px;
