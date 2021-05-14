@@ -514,6 +514,10 @@ p#status.error {
         color: #fff;
     }
 
+    .stick nav ul li a.active {
+        color: #fff;
+    }
+
     /* Header */
 
     .textbox h1 {
