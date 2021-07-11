@@ -14,7 +14,9 @@ function closeMenu() {
 
 window.addEventListener('scroll', function () {
     var navbar = document.querySelector("#navbar");
+    let scrollTop = document.querySelector('.ScrollTop')
 
+    scrollTop.classList.toggle('active', this.window.scrollY > 500)
     navbar.classList.toggle('stick', window.scrollY > 0);
 
 
