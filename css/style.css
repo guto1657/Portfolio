@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
 
+
+:root {
+    --font-primary: 'Poppins', sans-serif;
+    --color-primary: #2196F3;
+    --color-secondary: #0a6fc2;
+    --color-white: #fff;
+    --color-black: #000;
+    --background-color-dark: #181818;
+}
+
+
+
 /* general settings */
 
 * {
@@ -21,7 +33,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-primary);
 }
 
 h3 {
@@ -57,20 +69,20 @@ header {
 }
 
 .textbox h1 {
-    color: #fff;
+    color: var(--color-white);
     font-size: 62px;
 }
 
 .btn {
     display: inline-block;
-    border: 1px solid #2196F3;
-    color: #2196F3;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
     padding: 12px 34px;
 }
 
 .btn:hover {
-    background: #2196F3;
-    color: #fff;
+    background: var(--color-primary);
+    color: var(--color-white);
     transition: 0.6s ease-in-out;
 }
 
@@ -87,7 +99,7 @@ header {
 
 .logo {
     font-size: 24px;
-    color: #fff;
+    color: var(--color-white);
 }
 
 nav {
@@ -101,13 +113,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: var(--color-white);
     font-size: 16px;
     line-height: 26px;
 }
 
 .navbar nav ul li a:hover {
-    color: #2196F3;
+    color: var(--color-primary);
 }
 
 .navbar .fas {
@@ -117,7 +129,7 @@ nav ul li a {
 .stick {
     position: fixed;
     top: 0;
-    background: #fff;
+    background: var(--color-white);
     padding: 20px 100px;
     transition: .5s;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -125,11 +137,11 @@ nav ul li a {
 }
 
 .stick .logo {
-    color: #000;
+    color: var(--color-black);
 }
 
 .stick nav ul li a {
-    color: #000;
+    color: var(--color-black);
 }
 
 .stick nav ul li a.active {
@@ -176,26 +188,26 @@ nav ul li a {
 }
 
 .cta {
-    background: #2196F3;
-    color: #fff;
+    background: var(--color-primary);
+    color: var(--color-white);
     border-radius: 8px;
     cursor: pointer;
 }
 
 .cta:hover {
-    background: #0a6fc2;
-    border: 1px solid #0a6fc2;
+    background: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
 }
 
 /* services */
 
 .services {
     margin-top: 100px;
-    background: #181818;
+    background: var(--background-color-dark);
 }
 
 .branco {
-    color: #fff;
+    color: var(--color-white);;
 }
 
 .container {
@@ -206,7 +218,7 @@ nav ul li a {
 
 .col-4 {
     flex-basis: 23%;
-    color: #fff;
+    color: var(--color-white);
     text-align: center;
     background: #202020;
     box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 50%);
@@ -232,7 +244,7 @@ nav ul li a {
 }
 
 .col-4 .fas, .col-4 .far, .col-4 .fab {
-    color: #0a6fc2;
+    color: var(--color-secondary);
     font-size: 2.4rem;
 }
 
@@ -260,7 +272,7 @@ nav ul li a {
 }
 
 .layer {
-    position: absolute;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -288,7 +300,7 @@ nav ul li a {
     transform: translateX(-50%);
     opacity: 0;
     transition: 0.5s;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .layer p {
@@ -302,7 +314,7 @@ nav ul li a {
     transform: translateX(-50%);
     opacity: 0;
     transition: 0.5s;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .LayerButtons {
@@ -321,15 +333,15 @@ nav ul li a {
 }
 
 .layer .btnProjects {
-    border: 1px solid #fff;
+    border: 1px solid var(--color-white);
     margin: 12px 15px; 
 }
 
 .layer .btnProjects:hover {
-    border: 1px solid #fff;
-    background: #fff;
+    border: 1px solid var(--color-white);
+    background: var(--color-white);
     transition: .5s all;
-    color: #2196F3;
+    color: var(--color-primary);
 }
 
 .layer:hover h3 {
@@ -359,12 +371,12 @@ nav ul li a {
 /* Contact */
 
 .contact {
-    background: #181818;
+    background: var(--background-color-dark);
 }
 
 .contact .contato-col {
     flex-basis: 48%;
-    color: #fff;
+    color: var(--color-white);
    
 }
 
@@ -376,7 +388,7 @@ nav ul li a {
 .contact .contato-col div .fas {
     min-width: 40px;
     padding-top: 4px;
-    color: #fff;
+    color: var(--color-white);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -388,7 +400,7 @@ nav ul li a {
     font-size: 20px;
     margin-bottom: 0;
     font-weight: 400;
-    color: #2196F3;
+    color: var(--color-primary);
 }
 
 .contact .contato-col div p {
@@ -404,7 +416,7 @@ nav ul li a {
     padding: 15px;
     border: none;
     resize: none;
-    color: #fff;
+    color: var(--color-white);
     outline: none;
     box-sizing: border-box;
 }
@@ -417,8 +429,8 @@ nav ul li a {
 /* Footer */
 
 footer {
-    background: #000;
-    color: #fff;
+    background: var(--color-black);
+    color: var(--color-white);
     text-align: center;
 }
 
@@ -441,13 +453,42 @@ p#status {
 p#status.success {
     background-color: rgb(211, 250, 153);
     animation: status 4s ease forwards;
-    color: #000;
+    color: var(--color-black);
 }
 
 p#status.error {
     background-color: rgb(250, 129, 92);
-    color: #000;
+    color: var(--color-black);
     animation: status 4s ease forwards;
+}
+
+.ScrollTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: var(--color-primary);
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: var(--color-white);
+    font-size: 22px;
+    border-radius: 7px;
+    transition: .5s all;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.ScrollTop:hover {
+    transform: scale(1.05);
+    transition: all .5s;
+    background: #064579;
+}
+
+.ScrollTop.active {
+    visibility: visible;
+    opacity: 1;
 }
 
 @keyframes status {
@@ -470,57 +511,11 @@ p#status.error {
 
 /* Responsive */
 
-@media (max-width: 900px) {
-
-    /* Navbar */
-
-    nav {
-        position: fixed;
-        background: #000;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        text-align: left;
-        transition: right .5s;
-        z-index: 2;
-    }
-
-    nav ul li {
-        display: block;
-    }
-
-    nav ul {
-        padding: 10px 30px;
-    }
-
-    .navbar .fas {
-        display: block;
-        margin: 20px;
-        cursor: pointer;
-        font-size: 22px;
-        color: #fff;
-    }
-
-    .stick {
-        padding: 2% 6%;
-    }
-
-    .stick .fa-bars {
-        color: #000!important;
-    }
-
-    .stick nav ul li a {
-        color: #fff;
-    }
-
-    .stick nav ul li a.active {
-        color: #fff;
-    }
+@media (max-width: 700px) {
 
     /* Header */
 
-    .textbox h1 {
+    #home .textbox h1 {
         font-size: 24px;
         margin-bottom: 30px;
     }
@@ -552,6 +547,8 @@ p#status.error {
 
     .projects-col img {
         border-radius: 10px;
+        height: 100%;
+        object-fit: cover;
     }
     
     .projects-col {
@@ -584,9 +581,9 @@ p#status.error {
 
     .btnProjetosMobile {
         display: inline-block;
-        color: #2196F3;
-        background: #fff;
-        border: 1px solid #2196F3;
+        color: var(--color-primary);
+        background: var(-color-white);
+        border: 1px solid var(--color-primary);
         padding: 10px 20px;
         border-radius: 5px;
         margin: 0 5px;
@@ -598,8 +595,8 @@ p#status.error {
     }
 
     .btnProjetosMobile:hover {
-        background: #2196F3;
-        color: #fff;
+        background: var(--color-primary);
+        color: var(--color-white);
         transition: .5s all;
     }
 
@@ -608,5 +605,147 @@ p#status.error {
     .contato-col:first-child div:last-child span p {
         font-size: 15px;
     }
+
+}
+
+@media (max-width: 1200px) {
+
+    /* Header */
+
+    .textbox h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    
+    /* Navbar */
+    nav {
+        position: fixed;
+        background: var(--color-black);
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        text-align: left;
+        transition: right .5s;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul {
+        padding: 10px 30px;
+    }
+
+    .navbar .fas {
+        display: block;
+        margin: 20px;
+        cursor: pointer;
+        font-size: 22px;
+        color: var(--color-white);
+    }
+
+    .stick {
+        padding: 2% 6%;
+    }
+
+    .stick .fa-bars {
+        color: var(--color-black)!important;
+    }
+
+    .stick nav ul li a {
+        color: var(--color-white);
+    }
+
+    .stick nav ul li a.active {
+        color: var(--color-white);
+    }
+
+    /* projects */
+    
+    .layer {
+        display: none;
+    }
+
+    .projects-col img {
+        border-radius: 10px;
+        object-fit: fill;
+        height: 200px;
+    }
+    
+    .projects-col {
+        margin-bottom: 50px;
+    }
+
+    .descricaoMobile {
+        display: block;
+        padding: 10px;
+    }
+
+    .descricaoMobile h3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .descricaoMobile p {
+        font-size: 14px;
+        line-height: 22px;
+        color: #333;
+    }
+
+    .botoesMobile {
+        display: flex;
+        margin: 30px 0 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btnProjetosMobile {
+        display: inline-block;
+        color: var(--color-primary);
+        background: var(--color-white);
+        border: 1px solid var(--color-primary);
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 0 5px;
+        font-weight: 500;
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .btnProjetosMobile:hover {
+        background: var(--color-primary);
+        color: var(--color-white);
+        transition: .5s all;
+    }
+
+    /* Services */
+    .col-4 {
+        flex-basis: 48%;
+    }
+
+    /* contact */
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .contact .contato-col {
+        flex-basis: 48%;
+        color: var(--color-white);
+       
+    }
+
+    /* Scroll Up Button */
+    .ScrollTop.active {
+        opacity: 0;
+        visibility: hidden;
+    }
+
 
 }
