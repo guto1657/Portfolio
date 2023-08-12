@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfólio - Gustavo Matos</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Gustavo Matos">
+    <meta name="keywords" content="sites, web, desenvolvimento, programador, Gustavo Matos, front-end, programador web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header id="home">
+        <div class="navbar" id="navbar">
+            <a href="#home" class="logo"><img src="./assets/img/logoWhite.png" alt="Logo"></a>
+            <nav id="navMenu">
+                <ul>
+                    <li class="list"><a href="#home" onclick="closeMenu()">Ínicio</a></li>
+                    <li class="list"><a class="links" href="#about" onclick="closeMenu()">Sobre</a></li>
+                    <li class="list"><a class="links" href="#skills" onclick="closeMenu()">Conhecimentos</a></li>
+                    <li class="list"><a class="links" href="#projects" onclick="closeMenu()">Projetos</a></li>
+                    <li class="list"><a class="links" href="#contact" onclick="closeMenu()">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu" onclick="toogleMenu()">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="textbox">
+            <h1>Olá, eu sou Gustavo Matos.<br>
+                Desenvolvedor Front-end.</h1>
+            <a href="#projects" class="btn cta HeroSection">
+                <i class="fa-solid fa-clone"></i>
+                Ver Projetos
+            </a>
+            <a href="https://github.com/guto1657" class="btn" target="_blank">
+                <i class="fab fa-github"></i>
+                Meu Github
+            </a>
+        </div>
+
+    </header>
+    <!--==================== ABOUT ====================-->
+    <section class="about" id="about">
+        <h3 class="heading">Sobre mim</h3>
+        <div class="row">
+            <div class="col-2">
+                <img src="./assets/img/myphoto.png" alt="minhaFoto" class="userPicture">
+            </div>
+            <div class="col-2">
+                <h5>Quem sou eu?</h5>
+                <p>
+                    Olá, meu nome é <strong class="color">Gustavo</strong> e sou um <strong class="color">desenvolvedor
+                        Front-End apaixonado por tecnologia</strong>. Busco constantemente aprender <strong
+                        class="color">novas tecnologias por conta própria</strong> e o meu objetivo como desenvolvedor é
+                    criar <strong class="color">interfaces modernas</strong> e de <strong class="color">alta
+                        qualidade</strong>, com foco em <strong class="color">performance e responsividade</strong>.
+                    Algumas das minhas habilidades como desenvolvedor Front-End incluem <strong
+                        class="color">HTML</strong>, <strong class="color">CSS</strong>, <strong
+                        class="color">JavaScript</strong> e <strong class="color">React</strong>. Além disso, também
+                    gosto de <strong class="color">estudar tecnologias de Back-End</strong> nas minhas horas vagas.
+                </p>
+                <a href="https://www.linkedin.com/in/gustavo-matos-4ba078245/" class="btn cta" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    Linkedin
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--==================== SKILLS ====================-->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h3 class="heading branco">Conhecimentos</h1>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="box-skills">
+                            <h2>Tecnologias de Front-end</h2>
+                            <div class="experience">
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        HTML
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        CSS
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        JAVASCRIPT
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        SASS
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        REACTJS
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="box-skills">
+                            <h2>Tecnologias de Back-end</h2>
+                            <div class="experience">
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        NODEJS
+                                    </span>
+                                    <span class="beginner">Iniciante</span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        MYSQL
+                                    </span>
+
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        EXPRESSJS
+                                    </span>
+                                    <span class="beginner">Iniciante</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--==================== PROJECTS ====================-->
+    <section class="projects" id="projects">
+        <h1 class="heading">Projetos</h1>
+        <!-- PROJECT ROW 01 -->
+        <div class="row">
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="./assets/img/devblog.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">DevBlog</h3>
+                        <p class="content-text">
+                            <span class=textHighlight>Blog full-stack</span> com <span class=textHighlight>React</span>
+                            no front-end, <span class=textHighlight>testes unitários</span> com <span
+                                class=textHighlight>Jest</span> e <span class=textHighlight>estilização</span> com <span
+                                class=textHighlight>Styled-Components</span>. No back-end, <span
+                                class=textHighlight>usa-se Node.js e Express.js</span>, com <span
+                                class=textHighlight>autenticação de usuários</span> através de <span
+                                class=textHighlight>JSON Web Tokens (JWT)</span>. Para o <span
+                                class=textHighlight>armazenamento de informações</span>, o banco de dados utilizado é o
+                            <span class=textHighlight>MongoDB.</span>
+                        </p>
+                        <div class="LayerButtons">
+                            <a href="https://devblog-react.vercel.app" target="_blank" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guto1657/devblog" target="_blank" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="./assets/img/restCountriesApp.jpg">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">REST Countries API</h3>
+                        <p class="content-text">Aplicação desenvolvida em <span class=textHighlight>React</span>, que
+                            extrai dados de uma <span class=textHighlight>API de países e os exibe ao usuário.</span>
+                            Utilizou-se o <span class=textHighlight>React Router</span> para <span
+                                class=textHighlight>criação de múltiplas</span>
+                            páginas, juntamente com o <span class=textHighlight>Styled Components</span> para
+                            <span class=textHighlight>estilizar os componentes por meio do JavaScript.</span>
+                        </p>
+                        <div class="LayerButtons">
+                            <a href="https://rest-countries-react-app-snowy.vercel.app/" target="_blank"
+                                class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guto1657/rest-countries-react" target="_blank"
+                                class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- PROJECT ROW 02 -->
+        <div class="row">
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="./assets/img/devfinder.jpg">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Devfinder</h3>
+                        <p class="content-text">Aplicação desenvolvida em <span class="textHighlight">React JS</span>,
+                            que <span class="textHighlight">exibe as
+                                informações de um determinado usuário do
+                                GitHub.</span> Para pegar essas informações, foi utilizada a <span
+                                class="textHighlight">API do GitHub.</span>
+                        </p>
+                        <div class="LayerButtons">
+                            <a href="https://devfinder-app-react.vercel.app/" target="_blank" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guto1657/devfinder-app-react" target="_blank"
+                                class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="./assets/img/TodoApp.jpg">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Todo app</h3>
+                        <p class="content-text">Projeto <span class="textHighlight">CRUD</span> desenvolvido em
+                            <span class="textHighlight">Javascript</span> utilizando o <span
+                                class="textHighlight">LocalStorage</span> para
+                            armazenar as informações.
+                        </p>
+                        <div class="LayerButtons">
+                            <a href="https://guto1657.github.io/Todo-app/" class="btn btnProjects" target="_blank">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guto1657/Todo-app" class="btn btnProjects" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- PROJECT ROW 03 -->
+        <div class="row">
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="./assets/img/eduford.jpg">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Eduford</h3>
+                        <p class="content-text">Website <span class="textHighlight">responsivo</span> de uma
+                            universidade fictícia. Esse projeto foi
+                            desenvolvido em <span class="textHighlight">HTML5, CSS3 e Javascript.</span></p>
+                        <div class="LayerButtons">
+                            <a href="https://guto1657.github.io/Eduford/" class="btn btnProjects" target="_blank">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guto1657/Eduford" class="btn btnProjects" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="./assets/img/OrçamentoPessoal.jpg">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">App Orçamento Pessoal</h3>
+                        <p class="content-text">Aplicação desenvolvida em <span class=textHighlight>JavaScript</span>,
+                            que consiste em realizar o <span class=textHighlight>cadastro e consulta de despesas
+                                financeiras</span>, salvando as
+                            informações no recurso de <span class=textHighlight>LocalStorage</span> do Browser.</p>
+                        <div class="LayerButtons">
+                            <a href="https://guto1657.github.io/App-DespesasFinanceiras-JS/" target="_blank"
+                                class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guto1657/App-DespesasFinanceiras-JS" target="_blank"
+                                class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="btnWrapper" id="btnWrapper">
+            <a href="https://github.com/guto1657?tab=repositories" target="_blank">
+                <button class="btn cta" id="load-more">
+                    Ver Mais
+                </button>
+            </a>
+        </div>
+
+
+    </section>
+    <!--==================== CONTACT ====================-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h5 class="heading branco">Contato</h5>
+            <div class="row">
+                <div class="contato-col">
+                    <h5 class="subHeading branco">Informações de contato</h5>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>
+                            <h5>Localização</h5>
+                            <p>Rio de janeiro, RJ</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>
+                            <h5>Telefone</h5>
+                            <p>(21) 992222157</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>Email</h5>
+                            <p>Gustavomatos.lima01@gmail.com</p>
+                        </span>
+                    </div>
+                    <ul class="socialmedia-list">
+                        <li class="socialmedia-wrapper">
+                            <a href="https://www.linkedin.com/in/gustavo-matos-4ba078245/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="socialmedia-wrapper">
+                            <a href="https://github.com/guto1657" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="socialmedia-wrapper">
+                            <a href="https://api.whatsapp.com/send?phone=5521992222157&text=Ol%C3%A1" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contato-col">
+                    <p id="status">
+
+                    </p>
+                    <h5 class="subHeading branco">Contate-me</h5>
+                    <form id="my-form" action="https://formspree.io/f/maylrzpy" method="POST">
+                        <input type="text" name="Name" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                        <textarea name="message" rows="8" placeholder="Sua Mensagem"></textarea>
+                        <button id="my-form-button" type="submit" class="btn cta">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== FOOTER ====================-->
+    <footer>
+        <p>© <span id="CurrentYear"></span> Gustavo Matos</p>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="ScrollTop">
+        <i class="las la-chevron-up"></i>
+    </a>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
