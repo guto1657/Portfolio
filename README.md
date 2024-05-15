@@ -8,7 +8,7 @@
 
 ![1620385267003](https://user-images.githubusercontent.com/70277574/117440437-6a20cb80-af0a-11eb-8116-f2f465abebb4.png)
 
-<h4 align="center"><a href="https://gustavomatos.vercel.app/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://gustavomatosportfolio.com/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
